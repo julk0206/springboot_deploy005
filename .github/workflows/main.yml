@@ -40,7 +40,7 @@ jobs:
           cache: maven
 
       - name: Build Backend (Maven)
-        run: mvn clean package -DskipTests -f ./deploy005_springboot_react/pom.xml
+        run: mvn clean package -DskipTests -f ./deploy005_springboo_react/pom.xml
 
       # React JS 빌드(Dist 생성)
       - name: Set up Node.js
